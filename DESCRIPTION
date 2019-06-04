@@ -1,0 +1,13 @@
+Package: GenArt
+Title: Genetic algorithm for image reproduction
+Version: 0.1.0
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: R package provides a genetic algorithm for image reproduction. It is based on forcing one or more errors during DNA replication (mutation) to keep the best candidate for another mutation. DNA consists of coordinates, degree of transparency, and RGB codes or gray scales for a given number of polygons.
+Depends: R (>= 3.5.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Maintainer: Robert Herrmann <robertherrmann@mail.de>
+Author: Robert Herrmann
+RoxygenNote: 6.1.1
+Import: png
